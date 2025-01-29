@@ -1,0 +1,45 @@
+.main-content {
+    padding: 2rem;
+    overflow-y: auto;
+    background-color: #e5f3e5;
+    margin-top: 10px;;
+    height: 800px;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: #000000;
+    
+  }
+  
+  .main-content h1 {
+    font-size: 2rem;
+    color: #020402;
+    margin-bottom: 1rem;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .actions button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+  }
+  
+  .main-content p {
+    font-size: 1rem;
+    color: #2c3e50;
+    line-height: 1.5;
+  }
+  
