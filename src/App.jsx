@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import ImageUpload from "./components/ImageUpload";
 import PredictionResult from "./components/PredictionResult";
 
@@ -81,7 +82,7 @@ const App = () => {
       <h1 className="text-4xl font-bold text-center text-blue-600 dark:text-white mb-8">
         Wildfire Detection
       </h1>
-
+      
       <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
         <div>
           <ImageUpload onImageUpload={handleImageUpload} />

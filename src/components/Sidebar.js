@@ -15,6 +15,7 @@ function Sidebar({ onContentChange }) {
         <li
           className="sidebar-item"
           onClick={() => onContentChange("Wildfire Detection")}
+          
         >
           Wildfire Detection
         </li>
